@@ -1,0 +1,349 @@
+body{ 
+    margin:0;
+    background-color: #58cff9; 
+} 
+#popup {
+    
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width:400px;
+    height:300px; 
+    background-color: #7dd147;
+    border: 2px solid #ffdd50;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    font-family: "droid-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: -0.9px;
+}
+.popTitle{
+    color: #58cff9; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:40px; 
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ea53ca;
+}
+#close{
+    font-family: "droid-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left:350px; 
+}
+#nav{
+    background-color: #58cff9;
+    height: 34px;
+    width: 100%;
+    line-height: 34px;
+    display: flex; 
+    justify-content:space-between;  
+    
+}
+.title h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #ffdd50; 
+    margin:0; 
+    display:inline-block; 
+    width:100%; 
+    padding-left:5%; 
+} 
+.title h1 a{
+    text-decoration:none; 
+    color:#ffdd50; 
+}
+.references h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: #ffdd50;
+    margin:0; 
+    display:inline-block; 
+    width:100%; 
+    border-right: 15px solid transparent;
+    
+}
+.references h2 a{
+    text-decoration: none; 
+    color:#ffdd50; 
+}
+.sectionsContainer{ 
+    display: flex; 
+
+}
+.section1{ 
+    flex-grow: 1;
+    background-color: #ffdd50;
+    box-sizing: border-box;
+    height:1000px; 
+    width:100%; 
+    text-align: center;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    display: flex; 
+    flex-direction: column;
+    padding-left:2%; 
+    padding-right:2%;
+
+}
+.section2{ 
+    flex-grow: 1;
+    background-color: #ea53ca;
+    box-sizing: border-box;
+    height:1000px; 
+    width:100%; 
+    text-align: center;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    display: flex; 
+    flex-direction: column;
+    padding-left:2%; 
+    padding-right:2%;
+}
+.section3{ 
+    flex-grow: 1;
+    background-color: #7dd147;
+    box-sizing: border-box;
+    height:1000px; 
+    width:100%; 
+    text-align: center;
+    overflow-y:scroll;
+
+    display: flex; 
+    flex-direction: column;
+    padding-left:2%; 
+    padding-right:2%;
+ 
+}
+  
+.section1 h1{
+    color: #58cff9;
+    padding: 10px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px; 
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ea53ca;
+} 
+.section2 h1{
+    color: #7dd147;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffdd50;
+} 
+.section3 h1 {
+    color: #ea53ca;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ffdd50;
+} 
+.section1 p{ 
+    text-align:left;
+    font-family: "droid-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px ;
+    line-height: 1.5;
+    padding-bottom: 0%; 
+    letter-spacing: -0.9px;
+            
+}
+.Paper1 { 
+    height: 27%;
+    width:auto;
+   
+} 
+.Paper1:hover{ 
+    height: 27%;
+    width:auto;
+    content:url(ancientImages/paper1Hover.JPG); 
+  
+} 
+.Paper2{
+    height: 50%;
+    width:auto;
+} 
+.Paper2:hover{
+    height: 50%;
+    width:auto;
+    content:url(ancientImages/paper2Hover.JPG); 
+} 
+.athenaFront{
+    height: auto;
+    width:100%;
+} 
+.athenaFront:hover{
+    height: auto;
+    width:100%;
+    content:url(ancientImages/alexCoinAthenaHover.jpg);
+} 
+.athenaBack{
+    height: auto;
+    width:100%;
+} 
+.athenaBack:hover{
+    height: auto;
+    width:100%;
+    content:url(ancientImages/alexCoinAthenaBackHover.jpg);
+}
+.statue{
+    padding-top: 2%;
+} 
+.statue:hover{
+    padding-top: 2%;
+    content:url(ancientImages/alexStatueHover.jpg);
+} 
+.coinAlex{
+    padding-top:2%; 
+}
+.coinAlex:hover{
+    padding-top:2%; 
+    content:url(ancientImages/coinAlexHover.jpg); 
+}
+.lastText{
+    margin-bottom:70px; 
+    text-align:left;
+    font-family: "droid-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px ;
+    line-height: 1.5;
+    letter-spacing: -0.9px;
+} 
+.US{
+    text-align:left; 
+    font-family: "droid-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:35px; 
+    margin: 0;
+} 
+.introSec2{
+    text-align:left;
+    font-family: "droid-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px ;
+    line-height: 1.5;
+    letter-spacing: -0.9px;
+} 
+.usPoster1{
+    height:50%; 
+    width:auto; 
+    padding-top:20px; 
+} 
+.usPoster1:hover{
+    content:url(WWIImages/usPoster1Hover.JPG); 
+    height:50%; 
+    width:auto; 
+} 
+.usPoster2{
+    height:50%; 
+    width:auto; 
+}
+.usPoster2:hover{
+    height:50%; 
+    width:auto; 
+    content:url(WWIImages/usPoster2Hover.JPG); 
+  
+   
+}
+.japanPoster1{
+    height:100%; 
+    width:auto; 
+    margin:0; 
+    padding-top:15px ;
+}
+.japanPoster1:hover{
+    height:100%; 
+    width:auto; 
+    margin:0; 
+    padding-top:15px ;
+    content:url(WWIImages/japanPoster1Hover.jpg); 
+}
+.japanPoster2{
+    height:100%; 
+    width:auto;  
+}
+.japanPoster2:hover{
+    height:100%; 
+    width:auto; 
+    content:url(WWIImages/japanPoster2Hover.JPG); 
+} 
+.russPoster1{
+    padding-top:15px; 
+    height:100%; 
+    width:auto;  
+}
+.russPoster1:hover{
+    padding-top:15px; 
+    height:100%; 
+    width:auto;  
+    content:url(WWIImages/russPoster1Hover.JPG); 
+}
+.russPoster2{
+    width:100%; 
+    height:100%; 
+}
+.russPoster2:hover{
+    height:100%; 
+    width:100%;  
+    content:url(WWIImages/russPoster2Hover.jpg); 
+}
+.modernImage1{
+    height:100%; 
+    width:100%;  
+}
+.modernImage2{
+    padding-top:15px;
+    height:100%; 
+    width:100%;  
+}
+.modernImage3{
+    padding-top:15px;
+    height:100%; 
+    width:100%;  
+}
+.modernImage4{
+    padding-top:15px;
+    height:100%; 
+    width:100%;  
+} 
+.quote{
+    text-align:center;
+    font-family: "droid-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px ;
+    line-height: 1.5;
+    letter-spacing: -0.9px;
+} 
+.modernImage1:hover{
+    height:100%; 
+    width:100%;  
+    content:url(modernImages/modernImage1Hover.jpg)
+}
+.modernImage2:hover{
+    padding-top:15px;
+    height:100%; 
+    width:100%;  
+    content:url(modernImages/modernImage2Hover.jpg)
+}
+.modernImage3:hover{
+    padding-top:15px;
+    height:100%; 
+    width:100%;  
+    content:url(modernImages/modernImage3Hover.jpg)
+}
+.modernImage4:hover{
+    padding-top:15px;
+    height:100%; 
+    width:100%;  
+    content:url(modernImages/modernImage4Hover.jpg)
+} 
